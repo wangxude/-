@@ -43,6 +43,7 @@
 		F20287F122781ACA00EF9B23 /* intro_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E122781AC900EF9B23 /* intro_1.jpg */; };
 		F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E222781AC900EF9B23 /* intro_2.jpg */; };
 		F20287F322781ACA00EF9B23 /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E322781AC900EF9B23 /* intro_3.jpg */; };
+		F20288292278294600EF9B23 /* WXSTopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */; };
 		F203B7AD2275399900A3FCD7 /* WXSTimeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7A92275399800A3FCD7 /* WXSTimeManger.m */; };
 		F203B7AE2275399900A3FCD7 /* WXSDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */; };
 		F203B7B1227539BF00A3FCD7 /* WXSHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7B0227539BF00A3FCD7 /* WXSHTTPTool.m */; };
@@ -169,6 +170,8 @@
 		F20287E122781AC900EF9B23 /* intro_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_1.jpg; sourceTree = "<group>"; };
 		F20287E222781AC900EF9B23 /* intro_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_2.jpg; sourceTree = "<group>"; };
 		F20287E322781AC900EF9B23 /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
+		F20288272278294600EF9B23 /* WXSTopicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicTableViewCell.h; sourceTree = "<group>"; };
+		F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicTableViewCell.m; sourceTree = "<group>"; };
 		F203B7A92275399800A3FCD7 /* WXSTimeManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTimeManger.m; sourceTree = "<group>"; };
 		F203B7AA2275399800A3FCD7 /* WXSTimeManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTimeManger.h; sourceTree = "<group>"; };
 		F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSDatabaseService.m; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 		F2013A33226EADC300EF2CD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F20288272278294600EF9B23 /* WXSTopicTableViewCell.h */,
+				F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -847,6 +852,7 @@
 				F2099B5B2268790300DF45D6 /* UITextView+WZB.m in Sources */,
 				F203B7AE2275399900A3FCD7 /* WXSDatabaseService.m in Sources */,
 				F2099B282268744100DF45D6 /* WXSTabBarViewController.m in Sources */,
+				F20288292278294600EF9B23 /* WXSTopicTableViewCell.m in Sources */,
 				F2013A28226EAC5900EF2CD7 /* LMJWordItem.m in Sources */,
 				F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */,
 				F2099B5E2268790300DF45D6 /* UIColor+Random.m in Sources */,

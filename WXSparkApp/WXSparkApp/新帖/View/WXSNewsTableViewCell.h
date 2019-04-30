@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "WXSNewsModel.h"
+//#import "WXSTopicViewModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WXSNewsTableViewCell : UITableViewCell
 
+//@property (nonatomic ,strong) WXSTopicViewModel *model;
 @property (nonatomic ,strong) WXSNewsModel *model;
 
 @property (strong, nonatomic)  UIImageView *pictureImageView;

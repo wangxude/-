@@ -30,7 +30,9 @@
     self.classNameLabel.text = [NSString stringWithFormat:@"%@",model.digest];
     self.pictureImageView.image = [UIImage imageNamed:@"player_play"];
     NSLog(@"%@---%@",model.source,model.digest);
-    
+//    self.nameLabel.text = [NSString stringWithFormat:@"%@",model.topic.name];
+//    self.classNameLabel.text = [NSString stringWithFormat:@"%@",model.topic.ID];
+//    [self.pictureImageView sd_setImageWithURL:model.topic.profile_image placeholderImage:nil];
     
     
     

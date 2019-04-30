@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param success 成功回调
  @param failure 失败回调
  */
-+ (void)POST:(NSString *)UrlString
+- (void)POST:(NSString *)UrlString
         parameters:(id)paramters
         success:(SuccessBlock)success
         failure:(FailureBlock)failure;

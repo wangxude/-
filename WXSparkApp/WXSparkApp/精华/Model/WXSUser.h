@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**id**/
 @property (nonatomic ,copy) NSString *ID;
 /**用户名**/
-@property (nonatomic ,copy) NSString *userName;
+@property (nonatomic ,copy) NSString *username;
 /**用户性别**/
 @property (nonatomic ,copy) NSString *sex;
 /**图片url**/

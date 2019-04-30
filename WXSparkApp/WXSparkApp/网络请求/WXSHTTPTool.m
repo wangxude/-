@@ -10,7 +10,7 @@
 
 @implementation WXSHTTPTool
 
-+ (void)POST:(NSString *)UrlString parameters:(id)paramters success:(SuccessBlock)success failure:(FailureBlock)failure {
+- (void)POST:(NSString *)UrlString parameters:(id)paramters success:(SuccessBlock)success failure:(FailureBlock)failure {
     AFHTTPSessionManager *session = [AFHTTPSessionManager manager];
     session.requestSerializer.timeoutInterval = 60.0;//请求超时时间是60秒
     [session POST:UrlString parameters:paramters progress:^(NSProgress * _Nonnull uploadProgress) {

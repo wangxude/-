@@ -37,29 +37,29 @@
     [self.view addSubview:self.tableView];
     
     NSString *string = @"https://www.apiopen.top/journalismApi";
-    [WXSHTTPTool POST:string parameters:@"" success:^(id  _Nullable responseObject) {
-        NSLog(@"%@",responseObject);
-        NSDictionary *dic1 = [responseObject valueForKey:@"data"];
-        NSArray *array = [dic1 valueForKey:@"auto"];
-        for (int i = 0; i < array.count; i++) {
-            WXSNewsModel *model = [WXSNewsModel modelWithDictionary:array[i]];
-            [self.dataArray addObject:model];
-            if (i == array.count - 1) {
-                [self.tableView reloadData];
-            }
-        }
-//        [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//            
-//          WXSNewsModel *model = [WXSNewsModel modelWithDictionary:obj];
-//          [self.dataArray addObject:model];
-//            if (stop) {
+//    [WXSHTTPTool POST:string parameters:@"" success:^(id  _Nullable responseObject) {
+//        NSLog(@"%@",responseObject);
+//        NSDictionary *dic1 = [responseObject valueForKey:@"data"];
+//        NSArray *array = [dic1 valueForKey:@"auto"];
+//        for (int i = 0; i < array.count; i++) {
+//            WXSNewsModel *model = [WXSNewsModel modelWithDictionary:array[i]];
+//            [self.dataArray addObject:model];
+//            if (i == array.count - 1) {
 //                [self.tableView reloadData];
 //            }
-//            
-//        }];
-    } failure:^(NSError * _Nullable error) {
-        NSLog(@"%@",error);
-    }];
+//        }
+////        [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+////            
+////          WXSNewsModel *model = [WXSNewsModel modelWithDictionary:obj];
+////          [self.dataArray addObject:model];
+////            if (stop) {
+////                [self.tableView reloadData];
+////            }
+////            
+////        }];
+//    } failure:^(NSError * _Nullable error) {
+//        NSLog(@"%@",error);
+//    }];
     
     // Do any additional setup after loading the view.
 }

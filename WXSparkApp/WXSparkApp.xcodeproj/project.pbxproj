@@ -34,6 +34,15 @@
 		F2013A49226EB73F00EF2CD7 /* WXSBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F2013A48226EB73F00EF2CD7 /* WXSBaseRequest.m */; };
 		F2013A4C226EB75A00EF2CD7 /* WXSBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F2013A4B226EB75A00EF2CD7 /* WXSBaseResponse.m */; };
 		F2013A4F226EB90700EF2CD7 /* WXSRequestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F2013A4E226EB90700EF2CD7 /* WXSRequestManger.m */; };
+		F20287E522781ACA00EF9B23 /* LMJEasyBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20287C822781AC900EF9B23 /* LMJEasyBlankPageView.m */; };
+		F20287EC22781ACA00EF9B23 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F20287D722781AC900EF9B23 /* AdvertiseHelper.m */; };
+		F20287ED22781ACA00EF9B23 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20287D922781AC900EF9B23 /* AdvertiseView.m */; };
+		F20287EE22781ACA00EF9B23 /* LMJIntroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F20287DC22781AC900EF9B23 /* LMJIntroductoryPagesHelper.m */; };
+		F20287EF22781ACA00EF9B23 /* LMJIntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20287DE22781AC900EF9B23 /* LMJIntroductoryPagesView.m */; };
+		F20287F022781ACA00EF9B23 /* intro_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E022781AC900EF9B23 /* intro_0.jpg */; };
+		F20287F122781ACA00EF9B23 /* intro_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E122781AC900EF9B23 /* intro_1.jpg */; };
+		F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E222781AC900EF9B23 /* intro_2.jpg */; };
+		F20287F322781ACA00EF9B23 /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E322781AC900EF9B23 /* intro_3.jpg */; };
 		F203B7AD2275399900A3FCD7 /* WXSTimeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7A92275399800A3FCD7 /* WXSTimeManger.m */; };
 		F203B7AE2275399900A3FCD7 /* WXSDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */; };
 		F203B7B1227539BF00A3FCD7 /* WXSHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7B0227539BF00A3FCD7 /* WXSHTTPTool.m */; };
@@ -65,6 +74,9 @@
 		F2099B5D2268790300DF45D6 /* UIButton+LMJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099B532268790300DF45D6 /* UIButton+LMJ.m */; };
 		F2099B5E2268790300DF45D6 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099B552268790300DF45D6 /* UIColor+Random.m */; };
 		F2099B5F2268790300DF45D6 /* UIView+LMJNjHuFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099B572268790300DF45D6 /* UIView+LMJNjHuFrame.m */; };
+		F20CA1B622768AFA00035956 /* WXSSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1B522768AFA00035956 /* WXSSQLiteManager.m */; };
+		F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1BE2276A7C600035956 /* WXSTopicListDAL.m */; };
+		F20CA1C22276EE1600035956 /* WXSTopicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1C12276EE1600035956 /* WXSTopicViewModel.m */; };
 		F21C837F226D93CE00C038FB /* WXSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C837E226D93CE00C038FB /* WXSEssenceViewController.m */; };
 		F21C8385226D93F100C038FB /* WXSFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8384226D93F100C038FB /* WXSFocusViewController.m */; };
 		F21C8388226D93FF00C038FB /* WXSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8387226D93FF00C038FB /* WXSMineViewController.m */; };
@@ -143,6 +155,20 @@
 		F2013A4B226EB75A00EF2CD7 /* WXSBaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSBaseResponse.m; sourceTree = "<group>"; };
 		F2013A4D226EB90700EF2CD7 /* WXSRequestManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSRequestManger.h; sourceTree = "<group>"; };
 		F2013A4E226EB90700EF2CD7 /* WXSRequestManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSRequestManger.m; sourceTree = "<group>"; };
+		F20287C722781AC900EF9B23 /* LMJEasyBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJEasyBlankPageView.h; sourceTree = "<group>"; };
+		F20287C822781AC900EF9B23 /* LMJEasyBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJEasyBlankPageView.m; sourceTree = "<group>"; };
+		F20287D622781AC900EF9B23 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
+		F20287D722781AC900EF9B23 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
+		F20287D822781AC900EF9B23 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		F20287D922781AC900EF9B23 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		F20287DB22781AC900EF9B23 /* LMJIntroductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJIntroductoryPagesHelper.h; sourceTree = "<group>"; };
+		F20287DC22781AC900EF9B23 /* LMJIntroductoryPagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJIntroductoryPagesHelper.m; sourceTree = "<group>"; };
+		F20287DD22781AC900EF9B23 /* LMJIntroductoryPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJIntroductoryPagesView.h; sourceTree = "<group>"; };
+		F20287DE22781AC900EF9B23 /* LMJIntroductoryPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJIntroductoryPagesView.m; sourceTree = "<group>"; };
+		F20287E022781AC900EF9B23 /* intro_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_0.jpg; sourceTree = "<group>"; };
+		F20287E122781AC900EF9B23 /* intro_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_1.jpg; sourceTree = "<group>"; };
+		F20287E222781AC900EF9B23 /* intro_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_2.jpg; sourceTree = "<group>"; };
+		F20287E322781AC900EF9B23 /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
 		F203B7A92275399800A3FCD7 /* WXSTimeManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTimeManger.m; sourceTree = "<group>"; };
 		F203B7AA2275399800A3FCD7 /* WXSTimeManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTimeManger.h; sourceTree = "<group>"; };
 		F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSDatabaseService.m; sourceTree = "<group>"; };
@@ -204,6 +230,12 @@
 		F2099B552268790300DF45D6 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		F2099B562268790300DF45D6 /* UIView+LMJNjHuFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LMJNjHuFrame.h"; sourceTree = "<group>"; };
 		F2099B572268790300DF45D6 /* UIView+LMJNjHuFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LMJNjHuFrame.m"; sourceTree = "<group>"; };
+		F20CA1B422768AFA00035956 /* WXSSQLiteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSSQLiteManager.h; sourceTree = "<group>"; };
+		F20CA1B522768AFA00035956 /* WXSSQLiteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSSQLiteManager.m; sourceTree = "<group>"; };
+		F20CA1BD2276A7C600035956 /* WXSTopicListDAL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicListDAL.h; sourceTree = "<group>"; };
+		F20CA1BE2276A7C600035956 /* WXSTopicListDAL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicListDAL.m; sourceTree = "<group>"; };
+		F20CA1C02276EE1600035956 /* WXSTopicViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicViewModel.h; sourceTree = "<group>"; };
+		F20CA1C12276EE1600035956 /* WXSTopicViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicViewModel.m; sourceTree = "<group>"; };
 		F21C837D226D93CE00C038FB /* WXSEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSEssenceViewController.h; sourceTree = "<group>"; };
 		F21C837E226D93CE00C038FB /* WXSEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSEssenceViewController.m; sourceTree = "<group>"; };
 		F21C8383226D93F100C038FB /* WXSFocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSFocusViewController.h; sourceTree = "<group>"; };
@@ -364,6 +396,8 @@
 				F203B7CC2275556100A3FCD7 /* WXSUser.m */,
 				F203B7D72275A93F00A3FCD7 /* WXSTopicTopComment.h */,
 				F203B7D82275A93F00A3FCD7 /* WXSTopicTopComment.m */,
+				F20CA1C02276EE1600035956 /* WXSTopicViewModel.h */,
+				F20CA1C12276EE1600035956 /* WXSTopicViewModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -389,6 +423,10 @@
 			children = (
 				F2013A43226EB5FF00EF2CD7 /* WXSHeader.h */,
 				F2013A44226EB5FF00EF2CD7 /* WXSHeader.m */,
+				F20CA1B422768AFA00035956 /* WXSSQLiteManager.h */,
+				F20CA1B522768AFA00035956 /* WXSSQLiteManager.m */,
+				F20CA1BD2276A7C600035956 /* WXSTopicListDAL.h */,
+				F20CA1BE2276A7C600035956 /* WXSTopicListDAL.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -405,6 +443,51 @@
 				F2013A4E226EB90700EF2CD7 /* WXSRequestManger.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		F20287C422781AC900EF9B23 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F20287C722781AC900EF9B23 /* LMJEasyBlankPageView.h */,
+				F20287C822781AC900EF9B23 /* LMJEasyBlankPageView.m */,
+				F20287D522781AC900EF9B23 /* 广告页 */,
+				F20287DA22781AC900EF9B23 /* 欢迎页 */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F20287D522781AC900EF9B23 /* 广告页 */ = {
+			isa = PBXGroup;
+			children = (
+				F20287D622781AC900EF9B23 /* AdvertiseHelper.h */,
+				F20287D722781AC900EF9B23 /* AdvertiseHelper.m */,
+				F20287D822781AC900EF9B23 /* AdvertiseView.h */,
+				F20287D922781AC900EF9B23 /* AdvertiseView.m */,
+			);
+			path = "广告页";
+			sourceTree = "<group>";
+		};
+		F20287DA22781AC900EF9B23 /* 欢迎页 */ = {
+			isa = PBXGroup;
+			children = (
+				F20287DB22781AC900EF9B23 /* LMJIntroductoryPagesHelper.h */,
+				F20287DC22781AC900EF9B23 /* LMJIntroductoryPagesHelper.m */,
+				F20287DD22781AC900EF9B23 /* LMJIntroductoryPagesView.h */,
+				F20287DE22781AC900EF9B23 /* LMJIntroductoryPagesView.m */,
+				F20287DF22781AC900EF9B23 /* PLMMPRIKImages */,
+			);
+			path = "欢迎页";
+			sourceTree = "<group>";
+		};
+		F20287DF22781AC900EF9B23 /* PLMMPRIKImages */ = {
+			isa = PBXGroup;
+			children = (
+				F20287E022781AC900EF9B23 /* intro_0.jpg */,
+				F20287E122781AC900EF9B23 /* intro_1.jpg */,
+				F20287E222781AC900EF9B23 /* intro_2.jpg */,
+				F20287E322781AC900EF9B23 /* intro_3.jpg */,
+			);
+			path = PLMMPRIKImages;
 			sourceTree = "<group>";
 		};
 		F203B7A82275399000A3FCD7 /* Tools */ = {
@@ -495,6 +578,7 @@
 				F2099AE2226870EB00DF45D6 /* AppDelegate.m */,
 				F2099AE4226870EB00DF45D6 /* ViewController.h */,
 				F2099AE5226870EB00DF45D6 /* ViewController.m */,
+				F20287C422781AC900EF9B23 /* Helpers */,
 				F203B7A82275399000A3FCD7 /* Tools */,
 				F2013A46226EB71E00EF2CD7 /* Network */,
 				F20139ED226EAC5900EF2CD7 /* LMJBase */,
@@ -728,8 +812,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20287F322781ACA00EF9B23 /* intro_3.jpg in Resources */,
 				F2099AEE226870EE00DF45D6 /* LaunchScreen.storyboard in Resources */,
+				F20287F022781ACA00EF9B23 /* intro_0.jpg in Resources */,
+				F20287F122781ACA00EF9B23 /* intro_1.jpg in Resources */,
 				F203B7D32275821000A3FCD7 /* video.json in Resources */,
+				F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */,
 				F2099AEB226870EE00DF45D6 /* Assets.xcassets in Resources */,
 				F2099AE9226870EB00DF45D6 /* Main.storyboard in Resources */,
 			);
@@ -760,9 +848,12 @@
 				F203B7AE2275399900A3FCD7 /* WXSDatabaseService.m in Sources */,
 				F2099B282268744100DF45D6 /* WXSTabBarViewController.m in Sources */,
 				F2013A28226EAC5900EF2CD7 /* LMJWordItem.m in Sources */,
+				F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */,
 				F2099B5E2268790300DF45D6 /* UIColor+Random.m in Sources */,
 				F2099B2B2268745C00DF45D6 /* WXSNavigationViewController.m in Sources */,
 				F203B7C222753A0200A3FCD7 /* WXSNewPostViewController.m in Sources */,
+				F20287ED22781ACA00EF9B23 /* AdvertiseView.m in Sources */,
+				F20CA1C22276EE1600035956 /* WXSTopicViewModel.m in Sources */,
 				F2013A45226EB5FF00EF2CD7 /* WXSHeader.m in Sources */,
 				F21C837F226D93CE00C038FB /* WXSEssenceViewController.m in Sources */,
 				F2099B5D2268790300DF45D6 /* UIButton+LMJ.m in Sources */,
@@ -793,20 +884,25 @@
 				F21C8391226D9D3100C038FB /* WXSNavigationBar.m in Sources */,
 				F2099B5C2268790300DF45D6 /* UIView+GestureCallback.m in Sources */,
 				F2013A1E226EAC5900EF2CD7 /* LMJNavUIBaseViewController.m in Sources */,
+				F20287EE22781ACA00EF9B23 /* LMJIntroductoryPagesHelper.m in Sources */,
 				F203B7CD2275556100A3FCD7 /* WXSUser.m in Sources */,
 				F2099AF1226870EE00DF45D6 /* main.m in Sources */,
 				F2013A49226EB73F00EF2CD7 /* WXSBaseRequest.m in Sources */,
 				F2013A21226EAC5900EF2CD7 /* LMJRequestBaseViewController.m in Sources */,
 				F2013A2A226EAC5900EF2CD7 /* LMJElementsFlowLayout.m in Sources */,
 				F203B7C422753A0200A3FCD7 /* WXSVideoViewController.m in Sources */,
+				F20287EC22781ACA00EF9B23 /* AdvertiseHelper.m in Sources */,
 				F2013A1B226EAC5900EF2CD7 /* LMJBaseViewController.m in Sources */,
+				F20CA1B622768AFA00035956 /* WXSSQLiteManager.m in Sources */,
 				F2099AE3226870EB00DF45D6 /* AppDelegate.m in Sources */,
 				F2013A1C226EAC5900EF2CD7 /* LMJCollectionViewController.m in Sources */,
+				F20287EF22781ACA00EF9B23 /* LMJIntroductoryPagesView.m in Sources */,
 				F203B7D92275A93F00A3FCD7 /* WXSTopicTopComment.m in Sources */,
 				F203B7B1227539BF00A3FCD7 /* WXSHTTPTool.m in Sources */,
 				F2013A29226EAC5900EF2CD7 /* LMJAutoRefreshFooter.m in Sources */,
 				F203B7C022753A0200A3FCD7 /* WXSNewsModel.m in Sources */,
 				F2013A4F226EB90700EF2CD7 /* WXSRequestManger.m in Sources */,
+				F20287E522781ACA00EF9B23 /* LMJEasyBlankPageView.m in Sources */,
 				F21C8388226D93FF00C038FB /* WXSMineViewController.m in Sources */,
 				F2013A4C226EB75A00EF2CD7 /* WXSBaseResponse.m in Sources */,
 				F2013A23226EAC5900EF2CD7 /* LMJTableViewController.m in Sources */,

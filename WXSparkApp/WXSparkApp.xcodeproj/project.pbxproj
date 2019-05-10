@@ -57,6 +57,9 @@
 		F203B7D0227558A000A3FCD7 /* WXSTopService.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7CF227558A000A3FCD7 /* WXSTopService.m */; };
 		F203B7D32275821000A3FCD7 /* video.json in Resources */ = {isa = PBXBuildFile; fileRef = F203B7D22275821000A3FCD7 /* video.json */; };
 		F203B7D92275A93F00A3FCD7 /* WXSTopicTopComment.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7D82275A93F00A3FCD7 /* WXSTopicTopComment.m */; };
+		F208918D227EDC1A005D6407 /* WXSTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F208918C227EDC1A005D6407 /* WXSTopicPictureView.m */; };
+		F2089190227EDC3A005D6407 /* WXSTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F208918F227EDC3A005D6407 /* WXSTopicVoiceView.m */; };
+		F2089193227EDC55005D6407 /* WXSTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2089192227EDC55005D6407 /* WXSTopicVideoView.m */; };
 		F2099AE3226870EB00DF45D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099AE2226870EB00DF45D6 /* AppDelegate.m */; };
 		F2099AE6226870EB00DF45D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099AE5226870EB00DF45D6 /* ViewController.m */; };
 		F2099AE9226870EB00DF45D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2099AE7226870EB00DF45D6 /* Main.storyboard */; };
@@ -78,6 +81,35 @@
 		F20CA1B622768AFA00035956 /* WXSSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1B522768AFA00035956 /* WXSSQLiteManager.m */; };
 		F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1BE2276A7C600035956 /* WXSTopicListDAL.m */; };
 		F20CA1C22276EE1600035956 /* WXSTopicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1C12276EE1600035956 /* WXSTopicViewModel.m */; };
+		F20E29F622801458006F1154 /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E29F422801458006F1154 /* PresentAnimator.m */; };
+		F20E29F922801624006F1154 /* UIImageView+FitNet.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E29F822801624006F1154 /* UIImageView+FitNet.m */; };
+		F20E29FC2280191A006F1154 /* BSJPictureShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E29FB2280191A006F1154 /* BSJPictureShowViewController.m */; };
+		F21024D32281188E00DC0B27 /* 3day.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024BA2281188500DC0B27 /* 3day.wav */; };
+		F21024D42281188E00DC0B27 /* noisy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21024BB2281188600DC0B27 /* noisy.mp3 */; };
+		F21024D52281188E00DC0B27 /* wavpathw.pac in Resources */ = {isa = PBXBuildFile; fileRef = F21024BC2281188600DC0B27 /* wavpathw.pac */; };
+		F21024D62281188E00DC0B27 /* hello.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024BD2281188600DC0B27 /* hello.wav */; };
+		F21024D72281188E00DC0B27 /* 7day.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024BE2281188700DC0B27 /* 7day.wav */; };
+		F21024D82281188E00DC0B27 /* You have finished this session Here is the result.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024BF2281188700DC0B27 /* You have finished this session Here is the result.wav */; };
+		F21024D92281188E00DC0B27 /* small.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21024C02281188800DC0B27 /* small.mp3 */; };
+		F21024DA2281188E00DC0B27 /* file.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C12281188800DC0B27 /* file.wav */; };
+		F21024DB2281188E00DC0B27 /* normal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21024C22281188800DC0B27 /* normal.mp3 */; };
+		F21024DC2281188E00DC0B27 /* Let's begin First sentence.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C32281188900DC0B27 /* Let's begin First sentence.wav */; };
+		F21024DD2281188E00DC0B27 /* r_stop.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C42281188900DC0B27 /* r_stop.wav */; };
+		F21024DE2281188E00DC0B27 /* blank.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C52281188900DC0B27 /* blank.wav */; };
+		F21024DF2281188E00DC0B27 /* r_begin.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C62281188A00DC0B27 /* r_begin.wav */; };
+		F21024E02281188E00DC0B27 /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21024C72281188A00DC0B27 /* right.mp3 */; };
+		F21024E12281188E00DC0B27 /* goodscore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C82281188B00DC0B27 /* goodscore.wav */; };
+		F21024E22281188E00DC0B27 /* Try it again.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024C92281188B00DC0B27 /* Try it again.wav */; };
+		F21024E32281188E00DC0B27 /* poorscore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024CA2281188B00DC0B27 /* poorscore.wav */; };
+		F21024E42281188E00DC0B27 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21024CB2281188C00DC0B27 /* error.mp3 */; };
+		F21024E52281188E00DC0B27 /* dictate start.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024CC2281188C00DC0B27 /* dictate start.wav */; };
+		F21024E62281188E00DC0B27 /* refuse.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024CD2281188C00DC0B27 /* refuse.wav */; };
+		F21024E72281188E00DC0B27 /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F21024CE2281188D00DC0B27 /* five.mp3 */; };
+		F21024E82281188E00DC0B27 /* One more time.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024CF2281188D00DC0B27 /* One more time.wav */; };
+		F21024E92281188E00DC0B27 /* go_on.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024D02281188D00DC0B27 /* go_on.wav */; };
+		F21024EA2281188E00DC0B27 /* Next one.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024D12281188E00DC0B27 /* Next one.wav */; };
+		F21024EB2281188E00DC0B27 /* hi.wav in Resources */ = {isa = PBXBuildFile; fileRef = F21024D22281188E00DC0B27 /* hi.wav */; };
+		F21024EE2281190200DC0B27 /* WXSAudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21024ED2281190200DC0B27 /* WXSAudioPlayerViewController.m */; };
 		F21C837F226D93CE00C038FB /* WXSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C837E226D93CE00C038FB /* WXSEssenceViewController.m */; };
 		F21C8385226D93F100C038FB /* WXSFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8384226D93F100C038FB /* WXSFocusViewController.m */; };
 		F21C8388226D93FF00C038FB /* WXSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8387226D93FF00C038FB /* WXSMineViewController.m */; };
@@ -197,6 +229,12 @@
 		F203B7D22275821000A3FCD7 /* video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
 		F203B7D72275A93F00A3FCD7 /* WXSTopicTopComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicTopComment.h; sourceTree = "<group>"; };
 		F203B7D82275A93F00A3FCD7 /* WXSTopicTopComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicTopComment.m; sourceTree = "<group>"; };
+		F208918B227EDC1A005D6407 /* WXSTopicPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicPictureView.h; sourceTree = "<group>"; };
+		F208918C227EDC1A005D6407 /* WXSTopicPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicPictureView.m; sourceTree = "<group>"; };
+		F208918E227EDC3A005D6407 /* WXSTopicVoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicVoiceView.h; sourceTree = "<group>"; };
+		F208918F227EDC3A005D6407 /* WXSTopicVoiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicVoiceView.m; sourceTree = "<group>"; };
+		F2089191227EDC55005D6407 /* WXSTopicVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicVideoView.h; sourceTree = "<group>"; };
+		F2089192227EDC55005D6407 /* WXSTopicVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicVideoView.m; sourceTree = "<group>"; };
 		F2099ADE226870EB00DF45D6 /* WXSparkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXSparkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2099AE1226870EB00DF45D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2099AE2226870EB00DF45D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -239,6 +277,39 @@
 		F20CA1BE2276A7C600035956 /* WXSTopicListDAL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicListDAL.m; sourceTree = "<group>"; };
 		F20CA1C02276EE1600035956 /* WXSTopicViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicViewModel.h; sourceTree = "<group>"; };
 		F20CA1C12276EE1600035956 /* WXSTopicViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicViewModel.m; sourceTree = "<group>"; };
+		F20E29F422801458006F1154 /* PresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		F20E29F522801458006F1154 /* PresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		F20E29F722801624006F1154 /* UIImageView+FitNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FitNet.h"; sourceTree = "<group>"; };
+		F20E29F822801624006F1154 /* UIImageView+FitNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FitNet.m"; sourceTree = "<group>"; };
+		F20E29FA2280191A006F1154 /* BSJPictureShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJPictureShowViewController.h; sourceTree = "<group>"; };
+		F20E29FB2280191A006F1154 /* BSJPictureShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJPictureShowViewController.m; sourceTree = "<group>"; };
+		F21024BA2281188500DC0B27 /* 3day.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3day.wav; sourceTree = "<group>"; };
+		F21024BB2281188600DC0B27 /* noisy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noisy.mp3; sourceTree = "<group>"; };
+		F21024BC2281188600DC0B27 /* wavpathw.pac */ = {isa = PBXFileReference; lastKnownFileType = file; path = wavpathw.pac; sourceTree = "<group>"; };
+		F21024BD2281188600DC0B27 /* hello.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello.wav; sourceTree = "<group>"; };
+		F21024BE2281188700DC0B27 /* 7day.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7day.wav; sourceTree = "<group>"; };
+		F21024BF2281188700DC0B27 /* You have finished this session Here is the result.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "You have finished this session Here is the result.wav"; sourceTree = "<group>"; };
+		F21024C02281188800DC0B27 /* small.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = small.mp3; sourceTree = "<group>"; };
+		F21024C12281188800DC0B27 /* file.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = file.wav; sourceTree = "<group>"; };
+		F21024C22281188800DC0B27 /* normal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = normal.mp3; sourceTree = "<group>"; };
+		F21024C32281188900DC0B27 /* Let's begin First sentence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Let's begin First sentence.wav"; sourceTree = "<group>"; };
+		F21024C42281188900DC0B27 /* r_stop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = r_stop.wav; sourceTree = "<group>"; };
+		F21024C52281188900DC0B27 /* blank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blank.wav; sourceTree = "<group>"; };
+		F21024C62281188A00DC0B27 /* r_begin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = r_begin.wav; sourceTree = "<group>"; };
+		F21024C72281188A00DC0B27 /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right.mp3; sourceTree = "<group>"; };
+		F21024C82281188B00DC0B27 /* goodscore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goodscore.wav; sourceTree = "<group>"; };
+		F21024C92281188B00DC0B27 /* Try it again.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Try it again.wav"; sourceTree = "<group>"; };
+		F21024CA2281188B00DC0B27 /* poorscore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = poorscore.wav; sourceTree = "<group>"; };
+		F21024CB2281188C00DC0B27 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		F21024CC2281188C00DC0B27 /* dictate start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dictate start.wav"; sourceTree = "<group>"; };
+		F21024CD2281188C00DC0B27 /* refuse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = refuse.wav; sourceTree = "<group>"; };
+		F21024CE2281188D00DC0B27 /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = five.mp3; sourceTree = "<group>"; };
+		F21024CF2281188D00DC0B27 /* One more time.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "One more time.wav"; sourceTree = "<group>"; };
+		F21024D02281188D00DC0B27 /* go_on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = go_on.wav; sourceTree = "<group>"; };
+		F21024D12281188E00DC0B27 /* Next one.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Next one.wav"; sourceTree = "<group>"; };
+		F21024D22281188E00DC0B27 /* hi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hi.wav; sourceTree = "<group>"; };
+		F21024EC2281190200DC0B27 /* WXSAudioPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSAudioPlayerViewController.h; sourceTree = "<group>"; };
+		F21024ED2281190200DC0B27 /* WXSAudioPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSAudioPlayerViewController.m; sourceTree = "<group>"; };
 		F21C837D226D93CE00C038FB /* WXSEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSEssenceViewController.h; sourceTree = "<group>"; };
 		F21C837E226D93CE00C038FB /* WXSEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSEssenceViewController.m; sourceTree = "<group>"; };
 		F21C8383226D93F100C038FB /* WXSFocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSFocusViewController.h; sourceTree = "<group>"; };
@@ -386,6 +457,8 @@
 				F21C837E226D93CE00C038FB /* WXSEssenceViewController.m */,
 				F2013A34226EB05A00EF2CD7 /* WXSTopicViewController.h */,
 				F2013A35226EB05A00EF2CD7 /* WXSTopicViewController.m */,
+				F20E29FA2280191A006F1154 /* BSJPictureShowViewController.h */,
+				F20E29FB2280191A006F1154 /* BSJPictureShowViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -410,6 +483,12 @@
 			children = (
 				F20288272278294600EF9B23 /* WXSTopicTableViewCell.h */,
 				F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */,
+				F208918B227EDC1A005D6407 /* WXSTopicPictureView.h */,
+				F208918C227EDC1A005D6407 /* WXSTopicPictureView.m */,
+				F208918E227EDC3A005D6407 /* WXSTopicVoiceView.h */,
+				F208918F227EDC3A005D6407 /* WXSTopicVoiceView.m */,
+				F2089191227EDC55005D6407 /* WXSTopicVideoView.h */,
+				F2089192227EDC55005D6407 /* WXSTopicVideoView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -455,6 +534,10 @@
 			children = (
 				F20287C722781AC900EF9B23 /* LMJEasyBlankPageView.h */,
 				F20287C822781AC900EF9B23 /* LMJEasyBlankPageView.m */,
+				F20E29F522801458006F1154 /* PresentAnimator.h */,
+				F20E29F422801458006F1154 /* PresentAnimator.m */,
+				F20E29F722801624006F1154 /* UIImageView+FitNet.h */,
+				F20E29F822801624006F1154 /* UIImageView+FitNet.m */,
 				F20287D522781AC900EF9B23 /* 广告页 */,
 				F20287DA22781AC900EF9B23 /* 欢迎页 */,
 			);
@@ -583,6 +666,7 @@
 				F2099AE2226870EB00DF45D6 /* AppDelegate.m */,
 				F2099AE4226870EB00DF45D6 /* ViewController.h */,
 				F2099AE5226870EB00DF45D6 /* ViewController.m */,
+				F21024B92281187A00DC0B27 /* Resources */,
 				F20287C422781AC900EF9B23 /* Helpers */,
 				F203B7A82275399000A3FCD7 /* Tools */,
 				F2013A46226EB71E00EF2CD7 /* Network */,
@@ -640,6 +724,8 @@
 			children = (
 				F21C8383226D93F100C038FB /* WXSFocusViewController.h */,
 				F21C8384226D93F100C038FB /* WXSFocusViewController.m */,
+				F21024EC2281190200DC0B27 /* WXSAudioPlayerViewController.h */,
+				F21024ED2281190200DC0B27 /* WXSAudioPlayerViewController.m */,
 			);
 			path = "关注";
 			sourceTree = "<group>";
@@ -711,6 +797,38 @@
 				F2099B512268790300DF45D6 /* UIView+GestureCallback.m */,
 			);
 			path = ThirdCategory;
+			sourceTree = "<group>";
+		};
+		F21024B92281187A00DC0B27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F21024BA2281188500DC0B27 /* 3day.wav */,
+				F21024BE2281188700DC0B27 /* 7day.wav */,
+				F21024C52281188900DC0B27 /* blank.wav */,
+				F21024CC2281188C00DC0B27 /* dictate start.wav */,
+				F21024CB2281188C00DC0B27 /* error.mp3 */,
+				F21024C12281188800DC0B27 /* file.wav */,
+				F21024CE2281188D00DC0B27 /* five.mp3 */,
+				F21024D02281188D00DC0B27 /* go_on.wav */,
+				F21024C82281188B00DC0B27 /* goodscore.wav */,
+				F21024BD2281188600DC0B27 /* hello.wav */,
+				F21024D22281188E00DC0B27 /* hi.wav */,
+				F21024C32281188900DC0B27 /* Let's begin First sentence.wav */,
+				F21024D12281188E00DC0B27 /* Next one.wav */,
+				F21024BB2281188600DC0B27 /* noisy.mp3 */,
+				F21024C22281188800DC0B27 /* normal.mp3 */,
+				F21024CF2281188D00DC0B27 /* One more time.wav */,
+				F21024CA2281188B00DC0B27 /* poorscore.wav */,
+				F21024C62281188A00DC0B27 /* r_begin.wav */,
+				F21024C42281188900DC0B27 /* r_stop.wav */,
+				F21024CD2281188C00DC0B27 /* refuse.wav */,
+				F21024C72281188A00DC0B27 /* right.mp3 */,
+				F21024C02281188800DC0B27 /* small.mp3 */,
+				F21024C92281188B00DC0B27 /* Try it again.wav */,
+				F21024BC2281188600DC0B27 /* wavpathw.pac */,
+				F21024BF2281188700DC0B27 /* You have finished this session Here is the result.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -817,13 +935,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21024E62281188E00DC0B27 /* refuse.wav in Resources */,
+				F21024E92281188E00DC0B27 /* go_on.wav in Resources */,
+				F21024E22281188E00DC0B27 /* Try it again.wav in Resources */,
 				F20287F322781ACA00EF9B23 /* intro_3.jpg in Resources */,
+				F21024E82281188E00DC0B27 /* One more time.wav in Resources */,
+				F21024D62281188E00DC0B27 /* hello.wav in Resources */,
+				F21024D52281188E00DC0B27 /* wavpathw.pac in Resources */,
 				F2099AEE226870EE00DF45D6 /* LaunchScreen.storyboard in Resources */,
+				F21024DA2281188E00DC0B27 /* file.wav in Resources */,
+				F21024EA2281188E00DC0B27 /* Next one.wav in Resources */,
+				F21024EB2281188E00DC0B27 /* hi.wav in Resources */,
+				F21024DE2281188E00DC0B27 /* blank.wav in Resources */,
+				F21024D72281188E00DC0B27 /* 7day.wav in Resources */,
+				F21024E02281188E00DC0B27 /* right.mp3 in Resources */,
+				F21024DD2281188E00DC0B27 /* r_stop.wav in Resources */,
 				F20287F022781ACA00EF9B23 /* intro_0.jpg in Resources */,
+				F21024E52281188E00DC0B27 /* dictate start.wav in Resources */,
+				F21024DB2281188E00DC0B27 /* normal.mp3 in Resources */,
+				F21024E12281188E00DC0B27 /* goodscore.wav in Resources */,
+				F21024D82281188E00DC0B27 /* You have finished this session Here is the result.wav in Resources */,
+				F21024DC2281188E00DC0B27 /* Let's begin First sentence.wav in Resources */,
+				F21024D42281188E00DC0B27 /* noisy.mp3 in Resources */,
 				F20287F122781ACA00EF9B23 /* intro_1.jpg in Resources */,
+				F21024E32281188E00DC0B27 /* poorscore.wav in Resources */,
+				F21024D32281188E00DC0B27 /* 3day.wav in Resources */,
 				F203B7D32275821000A3FCD7 /* video.json in Resources */,
 				F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */,
+				F21024E42281188E00DC0B27 /* error.mp3 in Resources */,
 				F2099AEB226870EE00DF45D6 /* Assets.xcassets in Resources */,
+				F21024D92281188E00DC0B27 /* small.mp3 in Resources */,
+				F21024E72281188E00DC0B27 /* five.mp3 in Resources */,
+				F21024DF2281188E00DC0B27 /* r_begin.wav in Resources */,
 				F2099AE9226870EB00DF45D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -859,14 +1002,19 @@
 				F2099B2B2268745C00DF45D6 /* WXSNavigationViewController.m in Sources */,
 				F203B7C222753A0200A3FCD7 /* WXSNewPostViewController.m in Sources */,
 				F20287ED22781ACA00EF9B23 /* AdvertiseView.m in Sources */,
+				F20E29F922801624006F1154 /* UIImageView+FitNet.m in Sources */,
 				F20CA1C22276EE1600035956 /* WXSTopicViewModel.m in Sources */,
 				F2013A45226EB5FF00EF2CD7 /* WXSHeader.m in Sources */,
 				F21C837F226D93CE00C038FB /* WXSEssenceViewController.m in Sources */,
 				F2099B5D2268790300DF45D6 /* UIButton+LMJ.m in Sources */,
 				F203B7D0227558A000A3FCD7 /* WXSTopService.m in Sources */,
+				F20E29F622801458006F1154 /* PresentAnimator.m in Sources */,
+				F21024EE2281190200DC0B27 /* WXSAudioPlayerViewController.m in Sources */,
+				F2089190227EDC3A005D6407 /* WXSTopicVoiceView.m in Sources */,
 				F2013A27226EAC5900EF2CD7 /* LMJWordArrowItem.m in Sources */,
 				F2099B592268790300DF45D6 /* NSDecimalNumber+Addtion.m in Sources */,
 				F2099AE6226870EB00DF45D6 /* ViewController.m in Sources */,
+				F208918D227EDC1A005D6407 /* WXSTopicPictureView.m in Sources */,
 				F2013A22226EAC5900EF2CD7 /* LMJStaticTableViewController.m in Sources */,
 				F2013A2D226EAC5900EF2CD7 /* LMJNormalRefreshHeader.m in Sources */,
 				F203B7AD2275399900A3FCD7 /* WXSTimeManger.m in Sources */,
@@ -876,6 +1024,7 @@
 				F200A7AF2269701E00ABEBDB /* BSJTabBar.m in Sources */,
 				F203B7C122753A0200A3FCD7 /* WXSNewsTableViewCell.m in Sources */,
 				F2013A20226EAC5900EF2CD7 /* LMJRefreshTableViewController.m in Sources */,
+				F2089193227EDC55005D6407 /* WXSTopicVideoView.m in Sources */,
 				F2013A1D226EAC5900EF2CD7 /* LMJNavigationController.m in Sources */,
 				F2013A26226EAC5900EF2CD7 /* LMJItemSection.m in Sources */,
 				F2013A24226EAC5900EF2CD7 /* LMJTextViewController.m in Sources */,
@@ -896,6 +1045,7 @@
 				F2013A49226EB73F00EF2CD7 /* WXSBaseRequest.m in Sources */,
 				F2013A21226EAC5900EF2CD7 /* LMJRequestBaseViewController.m in Sources */,
 				F2013A2A226EAC5900EF2CD7 /* LMJElementsFlowLayout.m in Sources */,
+				F20E29FC2280191A006F1154 /* BSJPictureShowViewController.m in Sources */,
 				F203B7C422753A0200A3FCD7 /* WXSVideoViewController.m in Sources */,
 				F20287EC22781ACA00EF9B23 /* AdvertiseHelper.m in Sources */,
 				F2013A1B226EAC5900EF2CD7 /* LMJBaseViewController.m in Sources */,

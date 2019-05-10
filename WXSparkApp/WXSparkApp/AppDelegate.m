@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WXSTabBarViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
 
@@ -24,6 +25,8 @@
     self.window.rootViewController = tabbarVC;
     [self.window makeKeyAndVisible];
     
+    
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
     // Override point for customization after application launch.
     return YES;
 }

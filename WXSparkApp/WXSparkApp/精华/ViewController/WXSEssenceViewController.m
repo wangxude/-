@@ -46,7 +46,7 @@
     wordsVC.topicType = WXSTopicTypeWords;
     
     WXSTopicViewController *voiceVC = [[WXSTopicViewController alloc] initWithTitle:@"音频"];
-    voiceVC.topicType = WXSTopicTypeVideo;
+    voiceVC.topicType = WXSTopicTypeVoice;
     
     WXSTopicViewController *pictureVC = [[WXSTopicViewController alloc] initWithTitle:@"图片"];
     pictureVC.topicType = WXSTopicTypePicture;
@@ -57,11 +57,12 @@
     WXSTopicViewController *allVC = [[WXSTopicViewController alloc] initWithTitle:@"全部"];
     allVC.topicType = WXSTopicTypeAll;
     
+     [self addChildViewController:allVC];
+     [self addChildViewController:videoVC];
+     [self addChildViewController:pictureVC];
     [self addChildViewController:wordsVC];
     [self addChildViewController:voiceVC];
-    [self addChildViewController:pictureVC];
-    [self addChildViewController:videoVC];
-    [self addChildViewController:allVC];
+   
     //不明白这句话
     [self.childViewControllers makeObjectsPerformSelector:@selector(setAreaType:) withObject:@"list"];
     

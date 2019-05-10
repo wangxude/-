@@ -10,6 +10,7 @@
 #import <ZJScrollPageView/ZJScrollPageView.h>
 #import "WXSTopService.h"
 #import "LMJEasyBlankPageView.h"
+#import "WXSTopicTableViewCell.h"
 
 @interface WXSTopicViewController ()<ZJScrollPageViewChildVcDelegate>
 
@@ -79,12 +80,12 @@
     return self.topicService.topicViewModels.count;
 }
 
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-////    BSJTopicCell *topicCell = [BSJTopicCell topicCellWithTableView:tableView];
-////    topicCell.topicViewModel = self.topicService.topicViewModels[indexPath.row];
-////    return topicCell;
-//}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    WXSTopicTableViewCell *topicCell = [WXSTopicTableViewCell topicCellWithTableView:tableView];
+    topicCell.topicViewModel = self.topicService.topicViewModels[indexPath.row];
+    return topicCell;
+}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {

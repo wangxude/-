@@ -1,15 +1,16 @@
 //
-//  WXSFocusViewController.m
+//  WXSAudioPlayerViewController.m
 //  WXSparkApp
 //
-//  Created by 王旭 on 2019/4/22.
+//  Created by 王旭 on 2019/5/7.
 //  Copyright © 2019 王旭. All rights reserved.
 //
 
-#import "WXSFocusViewController.h"
 #import "WXSAudioPlayerViewController.h"
 #import <AVFoundation/AVFoundation.h>
-@interface WXSFocusViewController ()
+
+@interface WXSAudioPlayerViewController ()
+
 /**noisy.mp3
  音频播放器
  */
@@ -18,20 +19,11 @@
 
 @end
 
-@implementation WXSFocusViewController
+@implementation WXSAudioPlayerViewController
 
 - (void)viewDidLoad {
-    
-    //不同屏幕尺寸字体适配
-    
-    //    CGFloat kscreenWidthradio = [UIScreen mainScreen].bounds.size.width/ 375.0;
-    //    CGFloat kscreenHeight = [UIScreen mainScreen].bounds.size.height/ 667.0;
-    //    CGFloat x = ceilf(100.0) * kscreenWidthradio;
-    //    CGFloat y = ceilf(200.0) * k
-    
-    
     //1.加载本地的音乐文件
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"3day.wav" withExtension:nil];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"noisy.mp3" withExtension:nil];
     //2.创建音乐播放器对象
     self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     //准备播放（音乐播放的内存空间的开辟等功能）
@@ -73,14 +65,5 @@
         [self.audioPlayer stop];
     }
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

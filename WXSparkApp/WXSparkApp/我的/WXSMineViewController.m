@@ -10,6 +10,8 @@
 
 @interface WXSMineViewController ()
 
+@property (nonatomic ,strong) UITableView *dataTableView;
+
 @end
 
 @implementation WXSMineViewController
@@ -17,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"我的";
-    
+    self.dataTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 0, 0) style:nil];
     // Do any additional setup after loading the view.
 }
 

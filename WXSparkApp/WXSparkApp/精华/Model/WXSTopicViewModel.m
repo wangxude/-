@@ -82,17 +82,17 @@ const CGFloat BSJCellContentImageMaxHeight = 1000.0;
     
     
     // 热门评论 5 + 10 + 10 + 10 () + 10 + 10 + 5, font = 13
-    if (self.topic.topCmts.count) {
-        // 测试显示更多评论
-        // 测试, 模仿微信朋友圈
-        self.topic.topCmts.firstObject.content = [self.topic.topCmts.firstObject.content stringByAppendingString:@"添加更多文字, 添加更多文字, 添加更多文字, 添加更多文字, 添加更多文字"];
-        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
-        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
-        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
-        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
-        
-        _cellHeight += self.topCmtLayout.textBoundingSize.height + 20 + 10;
-    }
+//    if (self.topic.topCmts.count) {
+//        // 测试显示更多评论
+//        // 测试, 模仿微信朋友圈
+//        self.topic.topCmts.firstObject.content = [self.topic.topCmts.firstObject.content stringByAppendingString:@"添加更多文字, 添加更多文字, 添加更多文字, 添加更多文字, 添加更多文字"];
+//        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
+//        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
+//        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
+//        [self.topic.topCmts addObject:self.topic.topCmts.firstObject];
+//        
+//        _cellHeight += self.topCmtLayout.textBoundingSize.height + 20 + 10;
+//    }
     
 }
 

@@ -26,6 +26,7 @@ PODS:
   - HMQRCodeScanner (1.0.6)
   - IQKeyboardManager (6.2.0)
   - KILabel (1.0.1)
+  - M13ProgressSuite (1.2.9)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJExtension (3.0.15.1)
@@ -40,6 +41,7 @@ PODS:
   - SDWebImage/GIF (4.4.6):
     - FLAnimatedImage (~> 1.0)
     - SDWebImage/Core
+  - SSZipArchive (2.1.4)
   - Toast (4.0.0)
   - TZImagePickerController (3.2.0)
   - UICKeyChainStore (2.1.2)
@@ -83,6 +85,7 @@ DEPENDENCIES:
   - HMQRCodeScanner
   - IQKeyboardManager
   - KILabel
+  - M13ProgressSuite (from `https://github.com/Marxon13/M13ProgressSuite.git`)
   - Masonry
   - MBProgressHUD
   - MJExtension
@@ -92,6 +95,7 @@ DEPENDENCIES:
   - SDCycleScrollView
   - SDWebImage
   - SDWebImage/GIF
+  - SSZipArchive
   - Toast
   - TZImagePickerController
   - UMengAnalytics
@@ -126,6 +130,7 @@ SPEC REPOS:
     - Reachability
     - SDCycleScrollView
     - SDWebImage
+    - SSZipArchive
     - Toast
     - TZImagePickerController
     - UICKeyChainStore
@@ -138,6 +143,15 @@ SPEC REPOS:
     - ZFPlayer
     - ZJScrollPageView
 
+EXTERNAL SOURCES:
+  M13ProgressSuite:
+    :git: https://github.com/Marxon13/M13ProgressSuite.git
+
+CHECKOUT OPTIONS:
+  M13ProgressSuite:
+    :commit: 2ca59b59b35915ad9181945539460297ef40fd7c
+    :git: https://github.com/Marxon13/M13ProgressSuite.git
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
@@ -149,6 +163,7 @@ SPEC CHECKSUMS:
   HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
+  M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
@@ -157,6 +172,7 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
@@ -169,6 +185,6 @@ SPEC CHECKSUMS:
   ZFPlayer: 833cb3974b619bfd01a0ec1ebaabfe6f629e85b4
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: 6bee2f780ac0f27ad9ab2cf29ea72b6d9a4f2f5a
+PODFILE CHECKSUM: 15adee5b144629f4b5f7e96c62a622965f00fe38
 
 COCOAPODS: 1.6.1

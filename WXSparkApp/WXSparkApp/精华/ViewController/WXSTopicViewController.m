@@ -27,6 +27,10 @@
     edgeInsets.bottom += self.tabBarController.tabBar.lmj_height;
     self.tableView.contentInset = edgeInsets;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+//    self.tableView.estimatedRowHeight = 0;
+//    self.tableView.estimatedSectionHeaderHeight = 0;
+//    self.tableView.estimatedSectionFooterHeight = 0;
     // Do any additional setup after loading the view.
 }
 #pragma mark - ZJScrollPageViewChildVcDelegate
@@ -100,6 +104,10 @@
 //    cmtVc.topicViewModel = self.topicService.topicViewModels[indexPath.row];
 //    [self.navigationController pushViewController:cmtVc animated:YES];
 }
+
+//- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+//    return 5;
+//}
 //- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 //    return self.topicService.topicViewModels.count;
 //}

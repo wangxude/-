@@ -78,6 +78,11 @@
 		F2099B5D2268790300DF45D6 /* UIButton+LMJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099B532268790300DF45D6 /* UIButton+LMJ.m */; };
 		F2099B5E2268790300DF45D6 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099B552268790300DF45D6 /* UIColor+Random.m */; };
 		F2099B5F2268790300DF45D6 /* UIView+LMJNjHuFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2099B572268790300DF45D6 /* UIView+LMJNjHuFrame.m */; };
+		F20A9F6022894B9400D564F0 /* QQResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F20A9F5F22894B9400D564F0 /* QQResources.bundle */; };
+		F20A9F6322894C3F00D564F0 /* WXSHomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A9F6222894C3F00D564F0 /* WXSHomeListViewController.m */; };
+		F20A9F6622894C6400D564F0 /* WXSQQMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A9F6522894C6400D564F0 /* WXSQQMusicModel.m */; };
+		F20A9F6922894D4B00D564F0 /* WXSQQMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A9F6822894D4B00D564F0 /* WXSQQMusicTableViewCell.m */; };
+		F20A9F6D2289546A00D564F0 /* WXSVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20A9F6C2289546A00D564F0 /* WXSVideoPlayerViewController.m */; };
 		F20CA1B622768AFA00035956 /* WXSSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1B522768AFA00035956 /* WXSSQLiteManager.m */; };
 		F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1BE2276A7C600035956 /* WXSTopicListDAL.m */; };
 		F20CA1C22276EE1600035956 /* WXSTopicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F20CA1C12276EE1600035956 /* WXSTopicViewModel.m */; };
@@ -271,6 +276,15 @@
 		F2099B552268790300DF45D6 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		F2099B562268790300DF45D6 /* UIView+LMJNjHuFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LMJNjHuFrame.h"; sourceTree = "<group>"; };
 		F2099B572268790300DF45D6 /* UIView+LMJNjHuFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LMJNjHuFrame.m"; sourceTree = "<group>"; };
+		F20A9F5F22894B9400D564F0 /* QQResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QQResources.bundle; sourceTree = "<group>"; };
+		F20A9F6122894C3F00D564F0 /* WXSHomeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSHomeListViewController.h; sourceTree = "<group>"; };
+		F20A9F6222894C3F00D564F0 /* WXSHomeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSHomeListViewController.m; sourceTree = "<group>"; };
+		F20A9F6422894C6400D564F0 /* WXSQQMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSQQMusicModel.h; sourceTree = "<group>"; };
+		F20A9F6522894C6400D564F0 /* WXSQQMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSQQMusicModel.m; sourceTree = "<group>"; };
+		F20A9F6722894D4B00D564F0 /* WXSQQMusicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSQQMusicTableViewCell.h; sourceTree = "<group>"; };
+		F20A9F6822894D4B00D564F0 /* WXSQQMusicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSQQMusicTableViewCell.m; sourceTree = "<group>"; };
+		F20A9F6B2289546A00D564F0 /* WXSVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSVideoPlayerViewController.h; sourceTree = "<group>"; };
+		F20A9F6C2289546A00D564F0 /* WXSVideoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSVideoPlayerViewController.m; sourceTree = "<group>"; };
 		F20CA1B422768AFA00035956 /* WXSSQLiteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSSQLiteManager.h; sourceTree = "<group>"; };
 		F20CA1B522768AFA00035956 /* WXSSQLiteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSSQLiteManager.m; sourceTree = "<group>"; };
 		F20CA1BD2276A7C600035956 /* WXSTopicListDAL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicListDAL.h; sourceTree = "<group>"; };
@@ -626,6 +640,8 @@
 				F203B7BD22753A0200A3FCD7 /* WXSNewspaperViewController.m */,
 				F203B7BE22753A0200A3FCD7 /* WXSVideoViewController.h */,
 				F203B7BF22753A0200A3FCD7 /* WXSVideoViewController.m */,
+				F20A9F6B2289546A00D564F0 /* WXSVideoPlayerViewController.h */,
+				F20A9F6C2289546A00D564F0 /* WXSVideoPlayerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -733,8 +749,12 @@
 		F2099B162268722B00DF45D6 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				F20A9F5B22894B1C00D564F0 /* 音乐播放器 */,
 				F21C8386226D93FF00C038FB /* WXSMineViewController.h */,
 				F21C8387226D93FF00C038FB /* WXSMineViewController.m */,
+				F20A9F5A2289478F00D564F0 /* Model */,
+				F20A9F592289478600D564F0 /* View */,
+				F20A9F582289477900D564F0 /* ViewController */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -797,6 +817,73 @@
 				F2099B512268790300DF45D6 /* UIView+GestureCallback.m */,
 			);
 			path = ThirdCategory;
+			sourceTree = "<group>";
+		};
+		F20A9F582289477900D564F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F20A9F592289478600D564F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F20A9F5A2289478F00D564F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F20A9F5B22894B1C00D564F0 /* 音乐播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				F20A9F6A22894DC700D564F0 /* MusicTools */,
+				F20A9F5F22894B9400D564F0 /* QQResources.bundle */,
+				F20A9F5E22894B4100D564F0 /* Model */,
+				F20A9F5D22894B3800D564F0 /* View */,
+				F20A9F5C22894B2600D564F0 /* ViewController */,
+			);
+			path = "音乐播放器";
+			sourceTree = "<group>";
+		};
+		F20A9F5C22894B2600D564F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F20A9F6122894C3F00D564F0 /* WXSHomeListViewController.h */,
+				F20A9F6222894C3F00D564F0 /* WXSHomeListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F20A9F5D22894B3800D564F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F20A9F6722894D4B00D564F0 /* WXSQQMusicTableViewCell.h */,
+				F20A9F6822894D4B00D564F0 /* WXSQQMusicTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F20A9F5E22894B4100D564F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F20A9F6422894C6400D564F0 /* WXSQQMusicModel.h */,
+				F20A9F6522894C6400D564F0 /* WXSQQMusicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F20A9F6A22894DC700D564F0 /* MusicTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MusicTools;
 			sourceTree = "<group>";
 		};
 		F21024B92281187A00DC0B27 /* Resources */ = {
@@ -962,6 +1049,7 @@
 				F21024D32281188E00DC0B27 /* 3day.wav in Resources */,
 				F203B7D32275821000A3FCD7 /* video.json in Resources */,
 				F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */,
+				F20A9F6022894B9400D564F0 /* QQResources.bundle in Resources */,
 				F21024E42281188E00DC0B27 /* error.mp3 in Resources */,
 				F2099AEB226870EE00DF45D6 /* Assets.xcassets in Resources */,
 				F21024D92281188E00DC0B27 /* small.mp3 in Resources */,
@@ -993,8 +1081,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2099B5B2268790300DF45D6 /* UITextView+WZB.m in Sources */,
+				F20A9F6322894C3F00D564F0 /* WXSHomeListViewController.m in Sources */,
 				F203B7AE2275399900A3FCD7 /* WXSDatabaseService.m in Sources */,
 				F2099B282268744100DF45D6 /* WXSTabBarViewController.m in Sources */,
+				F20A9F6622894C6400D564F0 /* WXSQQMusicModel.m in Sources */,
 				F20288292278294600EF9B23 /* WXSTopicTableViewCell.m in Sources */,
 				F2013A28226EAC5900EF2CD7 /* LMJWordItem.m in Sources */,
 				F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */,
@@ -1027,6 +1117,7 @@
 				F2089193227EDC55005D6407 /* WXSTopicVideoView.m in Sources */,
 				F2013A1D226EAC5900EF2CD7 /* LMJNavigationController.m in Sources */,
 				F2013A26226EAC5900EF2CD7 /* LMJItemSection.m in Sources */,
+				F20A9F6922894D4B00D564F0 /* WXSQQMusicTableViewCell.m in Sources */,
 				F2013A24226EAC5900EF2CD7 /* LMJTextViewController.m in Sources */,
 				F2013A2F226EAC5900EF2CD7 /* LMJVerticalFlowLayout.m in Sources */,
 				F203B7CA2275550000A3FCD7 /* WXSTopic.m in Sources */,
@@ -1051,6 +1142,7 @@
 				F2013A1B226EAC5900EF2CD7 /* LMJBaseViewController.m in Sources */,
 				F20CA1B622768AFA00035956 /* WXSSQLiteManager.m in Sources */,
 				F2099AE3226870EB00DF45D6 /* AppDelegate.m in Sources */,
+				F20A9F6D2289546A00D564F0 /* WXSVideoPlayerViewController.m in Sources */,
 				F2013A1C226EAC5900EF2CD7 /* LMJCollectionViewController.m in Sources */,
 				F20287EF22781ACA00EF9B23 /* LMJIntroductoryPagesView.m in Sources */,
 				F203B7D92275A93F00A3FCD7 /* WXSTopicTopComment.m in Sources */,

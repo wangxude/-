@@ -25,8 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    NSArray *array = @[@"视频播放",@"新闻接口"];
-    for (int i = 0; i < 2; i++) {
+    NSArray *array = @[@"视频播放",@"新闻接口",@"视频播放2"];
+    for (int i = 0; i < array.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.frame = CGRectMake(100, 100+100*i, 100, 40);
         [button setTitle:[array objectAtIndex:i] forState:UIControlStateNormal];
@@ -121,10 +121,15 @@
         videoVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:videoVC animated:YES];
     }
-    else {
+    else if (sender.tag == 101){
         WXSNewspaperViewController *postVC = [[WXSNewspaperViewController alloc] init];
         postVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:postVC animated:YES];
+    }
+    else {
+//        WXSNewspaperViewController *postVC = [[WXSNewspaperViewController alloc] init];
+//        postVC.hidesBottomBarWhenPushed = YES;
+//        [self.navigationController pushViewController:postVC animated:YES];
     }
     
 }

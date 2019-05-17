@@ -60,8 +60,8 @@
      [self addChildViewController:allVC];
      [self addChildViewController:videoVC];
      [self addChildViewController:pictureVC];
-    [self addChildViewController:wordsVC];
-    [self addChildViewController:voiceVC];
+     [self addChildViewController:wordsVC];
+     [self addChildViewController:voiceVC];
    
     //不明白这句话
     [self.childViewControllers makeObjectsPerformSelector:@selector(setAreaType:) withObject:@"list"];

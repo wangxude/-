@@ -11,6 +11,7 @@
 #import "WXSTopicViewModel.h"
 #import <M13ProgressViewRing.h>
 //#import "VIDMoviePlayerViewController.h"
+#import "WXSMoviePlayerViewController.h"
 
 @interface WXSTopicVideoView ()
 /** <#digest#> */
@@ -225,6 +226,9 @@
 
 - (void)playVideo:(UIButton *)btn
 {
+    WXSMoviePlayerViewController *playerVC = [[WXSMoviePlayerViewController alloc] init];
+    playerVC.videoURL = self.topicViewModel.topic.videoUrl.absoluteString;
+    [self.viewController.navigationController pushViewController:playerVC animated:YES];
 //    VIDMoviePlayerViewController *playerVc = [[VIDMoviePlayerViewController alloc] init];
 //    playerVc.videoURL = self.topicViewModel.topic.videoUrl.absoluteString;
 //    [self.viewController.navigationController pushViewController:playerVc animated:YES];

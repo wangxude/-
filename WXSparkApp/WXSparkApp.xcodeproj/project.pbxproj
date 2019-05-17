@@ -44,6 +44,9 @@
 		F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E222781AC900EF9B23 /* intro_2.jpg */; };
 		F20287F322781ACA00EF9B23 /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E322781AC900EF9B23 /* intro_3.jpg */; };
 		F20288292278294600EF9B23 /* WXSTopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */; };
+		F202A12F228A939C00D794CE /* WXSDownloadConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F202A12E228A939C00D794CE /* WXSDownloadConst.m */; };
+		F202A132228A979900D794CE /* NSString+WXSDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = F202A131228A979900D794CE /* NSString+WXSDownload.m */; };
+		F202A135228AA54E00D794CE /* WXSDownloadManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F202A134228AA54E00D794CE /* WXSDownloadManger.m */; };
 		F203B7AD2275399900A3FCD7 /* WXSTimeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7A92275399800A3FCD7 /* WXSTimeManger.m */; };
 		F203B7AE2275399900A3FCD7 /* WXSDatabaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */; };
 		F203B7B1227539BF00A3FCD7 /* WXSHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7B0227539BF00A3FCD7 /* WXSHTTPTool.m */; };
@@ -57,6 +60,8 @@
 		F203B7D0227558A000A3FCD7 /* WXSTopService.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7CF227558A000A3FCD7 /* WXSTopService.m */; };
 		F203B7D32275821000A3FCD7 /* video.json in Resources */ = {isa = PBXBuildFile; fileRef = F203B7D22275821000A3FCD7 /* video.json */; };
 		F203B7D92275A93F00A3FCD7 /* WXSTopicTopComment.m in Sources */ = {isa = PBXBuildFile; fileRef = F203B7D82275A93F00A3FCD7 /* WXSTopicTopComment.m */; };
+		F2084A84228C016800B2BA36 /* WXSMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2084A83228C016800B2BA36 /* WXSMoviePlayerViewController.m */; };
+		F2084A87228C01BA00B2BA36 /* WXSCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F2084A86228C01BA00B2BA36 /* WXSCacheTool.m */; };
 		F208918D227EDC1A005D6407 /* WXSTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F208918C227EDC1A005D6407 /* WXSTopicPictureView.m */; };
 		F2089190227EDC3A005D6407 /* WXSTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F208918F227EDC3A005D6407 /* WXSTopicVoiceView.m */; };
 		F2089193227EDC55005D6407 /* WXSTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2089192227EDC55005D6407 /* WXSTopicVideoView.m */; };
@@ -209,6 +214,13 @@
 		F20287E322781AC900EF9B23 /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
 		F20288272278294600EF9B23 /* WXSTopicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicTableViewCell.h; sourceTree = "<group>"; };
 		F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicTableViewCell.m; sourceTree = "<group>"; };
+		F202A12C228A937B00D794CE /* WXSDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSDownload.h; sourceTree = "<group>"; };
+		F202A12D228A939B00D794CE /* WXSDownloadConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSDownloadConst.h; sourceTree = "<group>"; };
+		F202A12E228A939C00D794CE /* WXSDownloadConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSDownloadConst.m; sourceTree = "<group>"; };
+		F202A130228A979900D794CE /* NSString+WXSDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WXSDownload.h"; sourceTree = "<group>"; };
+		F202A131228A979900D794CE /* NSString+WXSDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WXSDownload.m"; sourceTree = "<group>"; };
+		F202A133228AA54E00D794CE /* WXSDownloadManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSDownloadManger.h; sourceTree = "<group>"; };
+		F202A134228AA54E00D794CE /* WXSDownloadManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSDownloadManger.m; sourceTree = "<group>"; };
 		F203B7A92275399800A3FCD7 /* WXSTimeManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTimeManger.m; sourceTree = "<group>"; };
 		F203B7AA2275399800A3FCD7 /* WXSTimeManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTimeManger.h; sourceTree = "<group>"; };
 		F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSDatabaseService.m; sourceTree = "<group>"; };
@@ -234,6 +246,10 @@
 		F203B7D22275821000A3FCD7 /* video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
 		F203B7D72275A93F00A3FCD7 /* WXSTopicTopComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicTopComment.h; sourceTree = "<group>"; };
 		F203B7D82275A93F00A3FCD7 /* WXSTopicTopComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicTopComment.m; sourceTree = "<group>"; };
+		F2084A82228C016800B2BA36 /* WXSMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSMoviePlayerViewController.h; sourceTree = "<group>"; };
+		F2084A83228C016800B2BA36 /* WXSMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSMoviePlayerViewController.m; sourceTree = "<group>"; };
+		F2084A85228C01BA00B2BA36 /* WXSCacheTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSCacheTool.h; sourceTree = "<group>"; };
+		F2084A86228C01BA00B2BA36 /* WXSCacheTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSCacheTool.m; sourceTree = "<group>"; };
 		F208918B227EDC1A005D6407 /* WXSTopicPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicPictureView.h; sourceTree = "<group>"; };
 		F208918C227EDC1A005D6407 /* WXSTopicPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicPictureView.m; sourceTree = "<group>"; };
 		F208918E227EDC3A005D6407 /* WXSTopicVoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicVoiceView.h; sourceTree = "<group>"; };
@@ -473,6 +489,8 @@
 				F2013A35226EB05A00EF2CD7 /* WXSTopicViewController.m */,
 				F20E29FA2280191A006F1154 /* BSJPictureShowViewController.h */,
 				F20E29FB2280191A006F1154 /* BSJPictureShowViewController.m */,
+				F2084A82228C016800B2BA36 /* WXSMoviePlayerViewController.h */,
+				F2084A83228C016800B2BA36 /* WXSMoviePlayerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -512,6 +530,8 @@
 			children = (
 				F203B7CE227558A000A3FCD7 /* WXSTopService.h */,
 				F203B7CF227558A000A3FCD7 /* WXSTopService.m */,
+				F2084A85228C01BA00B2BA36 /* WXSCacheTool.h */,
+				F2084A86228C01BA00B2BA36 /* WXSCacheTool.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -592,9 +612,24 @@
 			path = PLMMPRIKImages;
 			sourceTree = "<group>";
 		};
+		F202A12B228A931E00D794CE /* DownloadTool */ = {
+			isa = PBXGroup;
+			children = (
+				F202A12C228A937B00D794CE /* WXSDownload.h */,
+				F202A12D228A939B00D794CE /* WXSDownloadConst.h */,
+				F202A12E228A939C00D794CE /* WXSDownloadConst.m */,
+				F202A133228AA54E00D794CE /* WXSDownloadManger.h */,
+				F202A134228AA54E00D794CE /* WXSDownloadManger.m */,
+				F202A130228A979900D794CE /* NSString+WXSDownload.h */,
+				F202A131228A979900D794CE /* NSString+WXSDownload.m */,
+			);
+			path = DownloadTool;
+			sourceTree = "<group>";
+		};
 		F203B7A82275399000A3FCD7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F202A12B228A931E00D794CE /* DownloadTool */,
 				F203B7AC2275399800A3FCD7 /* WXSDatabaseService.h */,
 				F203B7AB2275399800A3FCD7 /* WXSDatabaseService.m */,
 				F203B7AA2275399800A3FCD7 /* WXSTimeManger.h */,
@@ -1087,12 +1122,14 @@
 				F20A9F6622894C6400D564F0 /* WXSQQMusicModel.m in Sources */,
 				F20288292278294600EF9B23 /* WXSTopicTableViewCell.m in Sources */,
 				F2013A28226EAC5900EF2CD7 /* LMJWordItem.m in Sources */,
+				F202A135228AA54E00D794CE /* WXSDownloadManger.m in Sources */,
 				F20CA1BF2276A7C600035956 /* WXSTopicListDAL.m in Sources */,
 				F2099B5E2268790300DF45D6 /* UIColor+Random.m in Sources */,
 				F2099B2B2268745C00DF45D6 /* WXSNavigationViewController.m in Sources */,
 				F203B7C222753A0200A3FCD7 /* WXSNewPostViewController.m in Sources */,
 				F20287ED22781ACA00EF9B23 /* AdvertiseView.m in Sources */,
 				F20E29F922801624006F1154 /* UIImageView+FitNet.m in Sources */,
+				F2084A87228C01BA00B2BA36 /* WXSCacheTool.m in Sources */,
 				F20CA1C22276EE1600035956 /* WXSTopicViewModel.m in Sources */,
 				F2013A45226EB5FF00EF2CD7 /* WXSHeader.m in Sources */,
 				F21C837F226D93CE00C038FB /* WXSEssenceViewController.m in Sources */,
@@ -1103,6 +1140,7 @@
 				F2089190227EDC3A005D6407 /* WXSTopicVoiceView.m in Sources */,
 				F2013A27226EAC5900EF2CD7 /* LMJWordArrowItem.m in Sources */,
 				F2099B592268790300DF45D6 /* NSDecimalNumber+Addtion.m in Sources */,
+				F202A12F228A939C00D794CE /* WXSDownloadConst.m in Sources */,
 				F2099AE6226870EB00DF45D6 /* ViewController.m in Sources */,
 				F208918D227EDC1A005D6407 /* WXSTopicPictureView.m in Sources */,
 				F2013A22226EAC5900EF2CD7 /* LMJStaticTableViewController.m in Sources */,
@@ -1119,6 +1157,7 @@
 				F2013A26226EAC5900EF2CD7 /* LMJItemSection.m in Sources */,
 				F20A9F6922894D4B00D564F0 /* WXSQQMusicTableViewCell.m in Sources */,
 				F2013A24226EAC5900EF2CD7 /* LMJTextViewController.m in Sources */,
+				F202A132228A979900D794CE /* NSString+WXSDownload.m in Sources */,
 				F2013A2F226EAC5900EF2CD7 /* LMJVerticalFlowLayout.m in Sources */,
 				F203B7CA2275550000A3FCD7 /* WXSTopic.m in Sources */,
 				F2013A2E226EAC5900EF2CD7 /* LMJSettingCell.m in Sources */,
@@ -1132,6 +1171,7 @@
 				F2013A1E226EAC5900EF2CD7 /* LMJNavUIBaseViewController.m in Sources */,
 				F20287EE22781ACA00EF9B23 /* LMJIntroductoryPagesHelper.m in Sources */,
 				F203B7CD2275556100A3FCD7 /* WXSUser.m in Sources */,
+				F2084A84228C016800B2BA36 /* WXSMoviePlayerViewController.m in Sources */,
 				F2099AF1226870EE00DF45D6 /* main.m in Sources */,
 				F2013A49226EB73F00EF2CD7 /* WXSBaseRequest.m in Sources */,
 				F2013A21226EAC5900EF2CD7 /* LMJRequestBaseViewController.m in Sources */,
@@ -1326,6 +1366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WEVV3PBL3X;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXSparkApp/PrefixHeader.pch";
@@ -1344,6 +1385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WEVV3PBL3X;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXSparkApp/PrefixHeader.pch";

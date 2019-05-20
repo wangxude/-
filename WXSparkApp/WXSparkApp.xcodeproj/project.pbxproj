@@ -382,20 +382,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		F200A8332269962400ABEBDB /* WXSBaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WXSBaseViewController;
-			sourceTree = "<group>";
-		};
-		F200A8342269963500ABEBDB /* WXSBaseModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WXSBaseModel;
-			sourceTree = "<group>";
-		};
 		F200A8362269966700ABEBDB /* WXSBaseView */ = {
 			isa = PBXGroup;
 			children = (
@@ -725,7 +711,6 @@
 				F2099B472268790300DF45D6 /* Category */,
 				F2099B25226873F800DF45D6 /* MainFrame */,
 				F2099B182268725800DF45D6 /* 网络请求 */,
-				F2099B172268724E00DF45D6 /* 第三方库 */,
 				F2099B162268722B00DF45D6 /* 我的 */,
 				F2099B152268721D00DF45D6 /* 关注 */,
 				F2099B13226871F600DF45D6 /* 精华 */,
@@ -787,18 +772,8 @@
 				F20A9F5B22894B1C00D564F0 /* 音乐播放器 */,
 				F21C8386226D93FF00C038FB /* WXSMineViewController.h */,
 				F21C8387226D93FF00C038FB /* WXSMineViewController.m */,
-				F20A9F5A2289478F00D564F0 /* Model */,
-				F20A9F592289478600D564F0 /* View */,
-				F20A9F582289477900D564F0 /* ViewController */,
 			);
 			path = "我的";
-			sourceTree = "<group>";
-		};
-		F2099B172268724E00DF45D6 /* 第三方库 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "第三方库";
 			sourceTree = "<group>";
 		};
 		F2099B182268725800DF45D6 /* 网络请求 */ = {
@@ -814,8 +789,6 @@
 			isa = PBXGroup;
 			children = (
 				F200A8362269966700ABEBDB /* WXSBaseView */,
-				F200A8342269963500ABEBDB /* WXSBaseModel */,
-				F200A8332269962400ABEBDB /* WXSBaseViewController */,
 				F2099B262268744100DF45D6 /* WXSTabBarViewController.h */,
 				F2099B272268744100DF45D6 /* WXSTabBarViewController.m */,
 				F2099B292268745C00DF45D6 /* WXSNavigationViewController.h */,
@@ -854,31 +827,9 @@
 			path = ThirdCategory;
 			sourceTree = "<group>";
 		};
-		F20A9F582289477900D564F0 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		F20A9F592289478600D564F0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F20A9F5A2289478F00D564F0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		F20A9F5B22894B1C00D564F0 /* 音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
-				F20A9F6A22894DC700D564F0 /* MusicTools */,
 				F20A9F5F22894B9400D564F0 /* QQResources.bundle */,
 				F20A9F5E22894B4100D564F0 /* Model */,
 				F20A9F5D22894B3800D564F0 /* View */,
@@ -912,13 +863,6 @@
 				F20A9F6522894C6400D564F0 /* WXSQQMusicModel.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		F20A9F6A22894DC700D564F0 /* MusicTools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MusicTools;
 			sourceTree = "<group>";
 		};
 		F21024B92281187A00DC0B27 /* Resources */ = {

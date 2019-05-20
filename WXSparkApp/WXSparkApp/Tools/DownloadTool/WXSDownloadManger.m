@@ -349,7 +349,7 @@ static NSLock *_lock;
     _lock = [[NSLock alloc] init];
 }
 
-+ (instancetype)defaultManger
++ (instancetype)defaultManager
 {
     return [self managerWithIdentifier:WXSDowndloadManagerDefaultIdentifier];
 }

@@ -44,6 +44,7 @@
 		F20287F222781ACA00EF9B23 /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E222781AC900EF9B23 /* intro_2.jpg */; };
 		F20287F322781ACA00EF9B23 /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F20287E322781AC900EF9B23 /* intro_3.jpg */; };
 		F20288292278294600EF9B23 /* WXSTopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */; };
+		F20295F8229289A60058F697 /* WXSWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F20295F7229289A60058F697 /* WXSWaterFallLayout.m */; };
 		F202A12F228A939C00D794CE /* WXSDownloadConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F202A12E228A939C00D794CE /* WXSDownloadConst.m */; };
 		F202A132228A979900D794CE /* NSString+WXSDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = F202A131228A979900D794CE /* NSString+WXSDownload.m */; };
 		F202A135228AA54E00D794CE /* WXSDownloadManger.m in Sources */ = {isa = PBXBuildFile; fileRef = F202A134228AA54E00D794CE /* WXSDownloadManger.m */; };
@@ -124,6 +125,7 @@
 		F21C8385226D93F100C038FB /* WXSFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8384226D93F100C038FB /* WXSFocusViewController.m */; };
 		F21C8388226D93FF00C038FB /* WXSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8387226D93FF00C038FB /* WXSMineViewController.m */; };
 		F21C8391226D9D3100C038FB /* WXSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C8390226D9D3100C038FB /* WXSNavigationBar.m */; };
+		F283B466229257CC004A9DE0 /* WXSDailyRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F283B465229257CC004A9DE0 /* WXSDailyRecommendViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +216,8 @@
 		F20287E322781AC900EF9B23 /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
 		F20288272278294600EF9B23 /* WXSTopicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSTopicTableViewCell.h; sourceTree = "<group>"; };
 		F20288282278294600EF9B23 /* WXSTopicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSTopicTableViewCell.m; sourceTree = "<group>"; };
+		F20295F6229289A60058F697 /* WXSWaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSWaterFallLayout.h; sourceTree = "<group>"; };
+		F20295F7229289A60058F697 /* WXSWaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSWaterFallLayout.m; sourceTree = "<group>"; };
 		F202A12C228A937B00D794CE /* WXSDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSDownload.h; sourceTree = "<group>"; };
 		F202A12D228A939B00D794CE /* WXSDownloadConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSDownloadConst.h; sourceTree = "<group>"; };
 		F202A12E228A939C00D794CE /* WXSDownloadConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSDownloadConst.m; sourceTree = "<group>"; };
@@ -348,6 +352,8 @@
 		F21C8387226D93FF00C038FB /* WXSMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSMineViewController.m; sourceTree = "<group>"; };
 		F21C838F226D9D3100C038FB /* WXSNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSNavigationBar.h; sourceTree = "<group>"; };
 		F21C8390226D9D3100C038FB /* WXSNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSNavigationBar.m; sourceTree = "<group>"; };
+		F283B464229257CC004A9DE0 /* WXSDailyRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSDailyRecommendViewController.h; sourceTree = "<group>"; };
+		F283B465229257CC004A9DE0 /* WXSDailyRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSDailyRecommendViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -772,6 +778,9 @@
 				F20A9F5B22894B1C00D564F0 /* 音乐播放器 */,
 				F21C8386226D93FF00C038FB /* WXSMineViewController.h */,
 				F21C8387226D93FF00C038FB /* WXSMineViewController.m */,
+				F283B45F2292472A004A9DE0 /* Model */,
+				F283B45E22924711004A9DE0 /* View */,
+				F283B45D229246EB004A9DE0 /* ViewController */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -895,6 +904,31 @@
 				F21024BF2281188700DC0B27 /* You have finished this session Here is the result.wav */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F283B45D229246EB004A9DE0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F283B464229257CC004A9DE0 /* WXSDailyRecommendViewController.h */,
+				F283B465229257CC004A9DE0 /* WXSDailyRecommendViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F283B45E22924711004A9DE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F20295F6229289A60058F697 /* WXSWaterFallLayout.h */,
+				F20295F7229289A60058F697 /* WXSWaterFallLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F283B45F2292472A004A9DE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1109,6 +1143,7 @@
 				F2013A1F226EAC5900EF2CD7 /* LMJRefreshCollectionViewController.m in Sources */,
 				F21C8385226D93F100C038FB /* WXSFocusViewController.m in Sources */,
 				F203B7C322753A0200A3FCD7 /* WXSNewspaperViewController.m in Sources */,
+				F283B466229257CC004A9DE0 /* WXSDailyRecommendViewController.m in Sources */,
 				F2013A36226EB05A00EF2CD7 /* WXSTopicViewController.m in Sources */,
 				F21C8391226D9D3100C038FB /* WXSNavigationBar.m in Sources */,
 				F2099B5C2268790300DF45D6 /* UIView+GestureCallback.m in Sources */,
@@ -1127,6 +1162,7 @@
 				F20CA1B622768AFA00035956 /* WXSSQLiteManager.m in Sources */,
 				F2099AE3226870EB00DF45D6 /* AppDelegate.m in Sources */,
 				F20A9F6D2289546A00D564F0 /* WXSVideoPlayerViewController.m in Sources */,
+				F20295F8229289A60058F697 /* WXSWaterFallLayout.m in Sources */,
 				F2013A1C226EAC5900EF2CD7 /* LMJCollectionViewController.m in Sources */,
 				F20287EF22781ACA00EF9B23 /* LMJIntroductoryPagesView.m in Sources */,
 				F203B7D92275A93F00A3FCD7 /* WXSTopicTopComment.m in Sources */,

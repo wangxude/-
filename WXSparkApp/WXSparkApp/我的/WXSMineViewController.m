@@ -134,6 +134,9 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.row == 0) {
         
+    }else if (indexPath.row == 1) {
+        NSLog(@"GGG");
+        NSLog(@"jjj");
     }
 }
 

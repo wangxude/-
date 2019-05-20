@@ -22,6 +22,7 @@
 @implementation WXSAudioPlayerViewController
 
 - (void)viewDidLoad {
+    [super viewDidLoad];
     //1.加载本地的音乐文件
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"noisy.mp3" withExtension:nil];
     //2.创建音乐播放器对象
